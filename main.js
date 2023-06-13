@@ -25,7 +25,7 @@ function gotPoses(results)
     if(results.length > 0)
     {
         console.log(results);
-        moustacheX = results[0].pose.nose.x-75;
+        moustacheX = results[0].pose.nose.x;
         moustacheY = results[0].pose.nose.y;
         console.log("Moustache x = " + results[0].pose.nose.x);
         console.log("Moustache y = " + results[0].pose.nose.y);
